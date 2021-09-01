@@ -1,0 +1,26 @@
+.showCart{
+    
+    background-color:#99CCFF;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+}
+
+.mainpart{
+    display: flex;
+    justify-content:center;
+    align-items:stretch;
+    flex-direction: column;
+    
+}
+
+.mainContain{
+   
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

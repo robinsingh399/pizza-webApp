@@ -1,0 +1,93 @@
+.header{
+    background-color:yellowgreen;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    letter-spacing :5px;
+    align-items: stretch;
+    
+    height: 60px;
+}
+.logo{
+   flex-grow: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height:100%;
+    
+}
+
+.cartHover{
+   flex-grow:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:orange;
+    
+}
+
+.header > p{
+    font-weight: 800;
+}
+
+@media (max-width:365px) {
+    .header{
+        width: 400px;
+    }
+}
+
+.cartHover{
+    text-decoration: none;
+}
+
+.cartHover:hover{
+    cursor:pointer;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+}
+
+.header_price{
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    
+     flex-direction: column;  
+     
+}
+
+.header_price>button{
+    background-color:darkgrey;
+}
+
+.header_rating>button{
+    background-color:darkgrey;
+}
+
+
+.header_price >button:hover{
+    cursor: pointer;
+    background-color: blue;
+} 
+
+.header_rating>button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+
+.header_rating{
+   
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+     flex-direction: column; 
+}
+
+button{
+    padding: 20px;
+}

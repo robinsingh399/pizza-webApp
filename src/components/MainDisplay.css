@@ -1,0 +1,111 @@
+.MainDisplay{
+    width: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+.display_img{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.display_imgUrl{
+    object-fit :fill;
+    height:200px;
+    width:100%;
+}
+
+.display_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    height: 40px;
+}
+
+.display_description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+}
+
+.display_ratings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+}
+
+.checked{
+    color: orange;
+}
+
+.display_button{
+    height:30px;
+    background-color: skyblue;
+    width: 60%;
+    border-radius:10px;
+    letter-spacing:5px;
+    font-weight: 800;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display_button:hover{
+    cursor:pointer;
+}
+
+.AddOns{
+    height:350px;
+    width:600px;
+    position:absolute;
+    top: 20%;
+    left: 35%;
+    background-color:gray;
+    border-radius:20px;
+    display:none;
+    border: 3px solid red;
+}
+
+.sizes{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.selectSize{
+    padding: 10px 10px;
+}
+
+.cartButton:hover{
+    cursor:pointer;
+}
+
+.cartButton{
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.closeButton{
+    color: black;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.closeButton:hover{
+    cursor:pointer;
+}

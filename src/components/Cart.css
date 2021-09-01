@@ -1,0 +1,42 @@
+.cartdiv{
+    display: flex;
+    align-items: stretch;
+    justify-content :center;
+    
+   
+    
+    background-color:darkorange;
+    padding: 0 10px;
+}
+
+.cartImage{
+   
+    display: flex;
+    align-items: stretch;
+    justify-content :left;
+  
+  
+}
+
+.cartImage >img{
+   height:65px;
+   width: 65px;
+   object-fit: fill;
+}
+
+.cart_name{
+    flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+    justify-content :center;
+   
+}
+
+.cart_price{
+    flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+    justify-content :center;
+    
+    max-width: 100px;
+}

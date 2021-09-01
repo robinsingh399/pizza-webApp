@@ -1,0 +1,13 @@
+.footer{
+    
+    background-color:yellowgreen;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    letter-spacing :5px;
+}
+
+
+.footer > p{
+    font-weight: 800;
+}

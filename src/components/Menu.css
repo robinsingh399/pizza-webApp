@@ -1,0 +1,84 @@
+.preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color:skyblue;
+   
+}
+
+.preview:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.preview__fig{
+    
+    width: 20%;
+    align-items: center;
+ 
+    display: flex;
+    justify-content: center;
+}
+
+.preview__name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.preview__fig > img{
+    object-fit: cover;
+    height: 50px;
+    width: 100%;
+}
+
+
+.menu{
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 60%;
+    overflow:scroll; 
+    
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+}
+
+
+.menu {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
+
+
+
+.preview_link{
+      text-decoration: none;
+     
+}
+
+.sortIcons{
+    display: flex;
+}
+
+.sortButton{
+ 
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sortButton>button:hover{
+    cursor: pointer;
+}
+
+.sortButton>button{
+    width: 100%;
+    font-size: small;
+}
